@@ -39,6 +39,7 @@ WHERE id NOT IN (
 -- DELETE cannot being used with GROUP BY and HAVING
 -- Use a subquery in the DELETE statement to identify records to be deleted
 
+DROP TABLE table_name;
 -- -------------------- UPDATE --------------------
 UPDATE table_name
 SET column1 = value1, column2 = value2, ...
