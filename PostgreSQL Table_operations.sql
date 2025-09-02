@@ -16,6 +16,10 @@ CREATE TABLE sales (
     amount NUMERIC
 );
 
+CREATE TABLE table_name AS
+SELECT ...
+FROM ...;
+
 INSERT INTO sales VALUES
 ('Asia',   2023, 100),
 ('Asia',   2024, 200),
