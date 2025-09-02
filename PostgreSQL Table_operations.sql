@@ -40,6 +40,13 @@ WHERE id NOT IN (
 -- Use a subquery in the DELETE statement to identify records to be deleted
 
 DROP TABLE table_name;
+-- Standard SQL command to permanently delete a table from a database. 
+-- It removes the table structure, all its data, indexes, triggers, and constraints.
+-- If the table does not exist, the database server will throw an error and halt the execution of the script. 
+
+DROP TABLE IF EXISTS table_name;
+-- Optional conditional clause that modifies the behavior of the DROP TABLE command.
+-- "IF" it does not exist, do not throw an error; simply skip this statement and continue executing the rest of the script.
 -- -------------------- UPDATE --------------------
 UPDATE table_name
 SET column1 = value1, column2 = value2, ...
