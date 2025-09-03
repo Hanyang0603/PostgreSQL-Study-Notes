@@ -89,15 +89,21 @@ BYTEA
 -- ============================ Date/Time Types ============================
 DATE 
 -- Date only (no time).
+-- YYYY-MM-DD
 
 TIME 
 -- Time only (no date).
 
 TIMESTAMP 
 -- Date and time (often auto-updated, can be with or without time zone).
+-- YYYY-MM-DD HH:MM:SS
+-- YYYY-MM-DD HH:MM:SS+HH
 
 INTERVAL 
 -- A span of time.
+-- EXP:
+-- 6 days 01:48:08
+-- 00:51:03
 
 -- DATETIME 
 -- MySQL-specific, date and time.
