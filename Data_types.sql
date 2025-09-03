@@ -1,6 +1,6 @@
--- PostgreSQL 中的数据类型名称是不区分大小写的，但按照惯例：
--- 系统内置类型通常使用小写：date, timestamp, integer, varchar等
--- 用户自定义类型可以使用任意大小写，但通常也遵循小写约定
+-- In PostgreSQL, data type names are case-insensitive, but by convention:
+-- System-built-in types are usually in lowercase: date, timestamp, integer, varchar, etc.
+-- User-defined types can use any case, but typically follow the lowercase convention.
 -- EXP:
 -- SELECT '2025-08-01'::date;
 
